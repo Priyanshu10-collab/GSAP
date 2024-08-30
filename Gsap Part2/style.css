@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,
+body{
+    height:100%;
+    width: 100%;
+}
+
+
+/* #page1{
+    height:100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2{
+    height:100%;
+    width: 100%;
+    background-color: rgb(19, 131, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px;
+}
+
+#page3{
+    height:100%;
+    width: 100%;
+    background-color: rgb(5, 77, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(76, 0, 255)
+}
+
+h1{
+    font-size:60px;
+    position: relative;
+    background-color: chartreuse;
+    padding: 10px;
+}
+h2{
+    font-size: 40px;
+    position: relative;
+    background-color: gold
+} */
+
+#page1{
+    height:100%;
+    width:100%;
+    background-color: black;
+}
+
+#page2{
+    height:100%;
+    width:100%;
+    background-color: rgb(71, 197, 239);
+    padding: 5vw 0;
+}
+
+#page3{
+    height:100%;
+    width:100%;
+    background-color: black;
+}
+
+/* #page2 h1{
+    font-size: 20vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    transform: translateX(-150%);
+} */
+
+#page2 h1 {
+    font-size: 20vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    transform: translateX(-150%);
+    white-space: nowrap; /* Prevents the text from wrapping */
+    overflow: hidden; /* Hides any overflow text */
+}
